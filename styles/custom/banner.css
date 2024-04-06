@@ -1,0 +1,52 @@
+.banner {
+    background-color: #899F87;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    gap: 50px;
+}
+
+.banner-text {
+    margin-right: 20px; 
+    color: white;
+}
+
+
+.banner-arrows {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+
+.arrow-up,
+.arrow-down {
+    font-size: 24px;
+    cursor: pointer;
+    margin-bottom: 5px; 
+}
+
+.banner-line br {
+    display: block;
+    content: "";
+    margin-top: 0.5em; /* Расстояние между строками */
+}
+
+.banner-line {
+    
+    font-size: 50px;
+}
+
+.signup-button {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.signup-button:hover {
+    background-color: white;
+}
