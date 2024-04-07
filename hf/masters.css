@@ -1,0 +1,42 @@
+.masters-container {
+  width: 100%;
+  overflow-x: scroll;
+}
+
+.masters {
+  display: flex;
+  flex-wrap: nowrap; 
+  padding: 10px;
+}
+
+.master {
+  width: 200px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.rating {
+  font-size: 20px;
+}
+
+.star {
+    position: relative;
+    display: inline-block;
+    text-shadow: 0 0 0.1em gold; 
+    text-align: center;
+    color: transparent;
+}
+ 
+#searchInput {
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+  margin-bottom: 30px;
+}
+
+
+img {
+    width: 150px;
+    height: 200px;
+}

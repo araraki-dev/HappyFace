@@ -1,0 +1,29 @@
+.salons-container {
+  width: 100%;
+  overflow-x: scroll;
+}
+
+.salons {
+  display: flex;
+  flex-wrap: nowrap; 
+  padding: 10px;
+}
+
+.salon {
+  width: 200px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.rating {
+  font-size: 20px;
+}
+
+#searchInputSalons {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 30px;
+    margin-top: 80px;
+}
